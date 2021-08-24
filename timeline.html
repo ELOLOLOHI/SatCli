@@ -1,0 +1,40 @@
+<html>
+<head>
+        <title>SatCli-Timeline</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="timeline.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Besley&display=swap" rel="stylesheet">
+    
+</head>
+<body id="body2">
+    <center>
+    <h2 id="ziptext">Zipcode:<span id="ziplabel"></span></h2>
+    </center>
+    <br>
+    <br>
+    <span>
+    <button class="btn btn-primary timebtn" onclick="past()">Past</button>
+    <button class="btn btn-warning timebtn" onclick="present()">Present</button>
+    <button class="btn btn-danger timebtn" onclick="future()">Future</button>
+    </span>
+    <br>
+    <label class="text-success" style="margin-left: 10px;">*Instead of a button, there will be a slider that you can drag to any time you want, which will come in a later update. </label>
+    <hr>
+    <div class="travel_main container">
+        <center>
+        <img  id="satdiv" class="img-responsive" src="dublinpresent.png">
+            <h4><kbd>Timeline</kbd></h4>
+            <hr>
+            <h5 class="text-left text-succsess text-capitalize" id="time"></h5>
+            <p class="text-muted text-left" id="analysistext">Over here it would have the analysis on each area, such as different threats to the area and etc. </p>
+        
+        </center>
+        </div>
+</body>
+</html>

@@ -1,0 +1,262 @@
+#body1 {
+    text-align: center;
+}
+
+#body2{
+    background-color: aquamarine;
+}
+
+.fontthing{
+    font-family: 'Besley', serif;
+}
+
+.timebtn{
+    margin-left: 10px;
+}
+.profile {
+    width: 175px; 
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border-width: thick;
+    border-style: double;
+}
+
+#intro {
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(#499756 0%, #53e266 100% );
+    display: table;
+    width: 100%;
+    opacity: 0.83;
+    z-index: 9;
+    
+}
+
+#actual{
+    background-color: rgba(255, 165, 71, 0.8);
+    padding-bottom:100px;
+    padding-top: 100px;
+    
+}
+
+#zipcode{
+    text-align: center;
+}
+
+#zipbtn{
+    width: 20%;
+    border-style: ridge;
+    border-width: 10px;
+}
+
+#about {
+    height: 50%;
+    background-image: url(treeblurback.jpg);
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.hola {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: fantasy;
+    line-height: 1.2;
+    font-weight: 300px;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 300px;
+    font-family: 'Besley', serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family:inherit;
+    font-weight: 300px;
+    line-height: 1.2;
+}
+
+#bio {
+   padding: 50px;
+   text-align: center; 
+}
+
+.line {
+    height: 2px;
+    background-color: black;
+    width: 150px;
+    margin: 8px auto;
+}
+
+    
+
+
+.link {
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.link:hover {
+    background-color: lightcyan;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+     
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contacts a {
+    text-shadow: none !important;
+    color: white !important;
+}
+.ello {
+    background-color: black;
+    padding-top: 50px;
+    
+}
+
+.ello h3 {
+    display: inline;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999999999999999999999999999999999999999999999999;
+}
+
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+
+input {
+    background: grey
+}
+
+.travel_main {
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.travel_main img {
+    width: 100%;
+
+}
+
+.travel_main hr {
+    width: 230px;
+
+}
+
+.travel_main p,
+.travel_main h5 {
+    margin-left: 20px;
+
+}
+
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+.environment_li {
+    margin-top: 13px;
+}
+
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img {
+    border-radius: 25px;
+}
+
+.environment_li p {
+    margin-top: 10px;
+}
+
+.header_entrepreneur {
+    line-height: 2;
+}
+
+.book {
+    cursor: pointer;
+    
+}
+
+.book hr{
+    margin-bottom:10px;
+}
+
+.modal-content {
+    margin-top:100px;
+    
+}
+
+.img_modal {
+    display:inline;
+    
+}
+
+.p_modal {
+    margin-top:10px;
+}
+
+.modal-body {
+    text-align: center; 
+}
+
+#ziptext{
+    font-family: 'Besley', serif;
+}
